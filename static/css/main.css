@@ -1,0 +1,49 @@
+#logo {
+  position: relative;
+  right: 1em;
+  height: auto;
+}
+
+body {
+  background-color: #ebeff5;
+}
+
+nav {
+  height: 5em;
+}
+
+#total-orders {
+  background-color: #4cb4c7;
+}
+
+#orders-delivered {
+  background-color: #7abecc;
+}
+
+#orders-pending {
+  background-color: #7cd1c0;
+}
+
+.col-md h1 {
+  padding: 10px;
+  text-align: center;
+}
+
+.hello-user {
+  color: #fff;
+  padding: 18px;
+  font-size: 18px;
+}
+
+.logout {
+  color: #fff;
+  font-size: 18px;
+}
+
+.profile-pic {
+  max-width: 200px;
+  max-height: 200px;
+  margin: 0 auto;
+  border-radius: 45%;
+}
+/*# sourceMappingURL=main.css.map */
