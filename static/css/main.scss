@@ -7,6 +7,13 @@
 body {
     background-color: #ebeff5;
 }
+.col-md-5, .col-md-7 {
+
+    h5 {
+        padding-left: .5em;
+}
+
+}
 
 nav {
     height: 5em;
@@ -49,10 +56,3 @@ nav {
     margin: 0 auto;
     border-radius: 45%;
 }
-
-
-
-// .orders {
-//     text-align: center;
-//     padding: 10px;
-// }

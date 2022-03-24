@@ -8,6 +8,10 @@ body {
   background-color: #ebeff5;
 }
 
+.col-md-5 h5, .col-md-7 h5 {
+  padding-left: .5em;
+}
+
 nav {
   height: 5em;
 }
