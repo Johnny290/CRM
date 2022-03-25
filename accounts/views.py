@@ -132,7 +132,7 @@ def customer(request, pk_test):
 @allowed_users(allowed_roles=['admin'])
 
 def createOrder(request, pk):
-	OrderFormSet = inlineformset_factory(Customer, Order, fields=('product', 'status'), extra=10 )
+	OrderFormSet = inlineformset_factory(Customer, Order, fields=('product', 'status'), extra=5 )
 	customer = Customer.objects.get(id=pk)
 	formset = OrderFormSet(queryset=Order.objects.none(),instance=customer)
 	#form = OrderForm(initial={'customer':customer})
@@ -149,13 +149,12 @@ def createOrder(request, pk):
 
 @login_required(login_url='login')
 @allowed_users(allowed_roles=['admin'])
-
 def updateOrder(request, pk):
-
 	order = Order.objects.get(id=pk)
 	form = OrderForm(instance=order)
-
+	print('ORDER:', order)
 	if request.method == 'POST':
+
 		form = OrderForm(request.POST, instance=order)
 		if form.is_valid():
 			form.save()

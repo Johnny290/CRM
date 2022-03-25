@@ -15,9 +15,6 @@ body {
 
 }
 
-nav {
-    height: 5em;
-}
 
 #total-orders {
     background-color: #4cb4c7;
@@ -39,11 +36,11 @@ nav {
 
 }
 
-.hello-user {
-    color: #fff;
-    padding: 18px;
+.hello-msg{
     font-size: 18px;
-}
+    color: #fff;
+    margin-right: 10px;
+  }
 
 .logout {
     color: #fff;
@@ -55,4 +52,8 @@ nav {
     max-height: 200px;
     margin: 0 auto;
     border-radius: 45%;
+}
+
+form {
+    display: inline-block;
 }

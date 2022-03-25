@@ -12,10 +12,6 @@ body {
   padding-left: .5em;
 }
 
-nav {
-  height: 5em;
-}
-
 #total-orders {
   background-color: #4cb4c7;
 }
@@ -33,10 +29,10 @@ nav {
   text-align: center;
 }
 
-.hello-user {
-  color: #fff;
-  padding: 18px;
+.hello-msg {
   font-size: 18px;
+  color: #fff;
+  margin-right: 10px;
 }
 
 .logout {
@@ -49,5 +45,9 @@ nav {
   max-height: 200px;
   margin: 0 auto;
   border-radius: 45%;
+}
+
+form {
+  display: inline-block;
 }
 /*# sourceMappingURL=main.css.map */
